@@ -38,6 +38,7 @@ module Fog
             'AllowUsersToChangePassword'  => allow_users_to_change_password,
             'HardExpiry'                  => hard_expiry,
             'ExpirePasswords'             => expire_passwords,
+            'Version'                     => '2010-05-08',
             :parser                       => Fog::Parsers::AWS::IAM::Basic.new
           })
         end
